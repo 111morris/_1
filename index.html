@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=7">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="morris.css">
+ <title>My portfolio</title>
+ <link rel="stylesheet" href="script.js">
+ <!-- <link rel="stylesheet" href="\Morris\index.html"> -->
+ <link rel="stylesheet" href="small-screen-styles.css">
+</head>
+
+<body>
+
+ <!-- header -->
+ <div id="header">
+  <div class="container">
+   <nav>
+    <img src="assets/mulandi.png" alt="" class="mulandi">
+    <ul>
+     <div class="mulandi2">
+      <span>M</span>ulandi.
+     </div>
+     <li><a href="#header">HOME</a></li>
+     <li><a href="#about">ABOUT</a></li>
+     <li><a href="#services">SERVICES</a></li>
+     <li><a href="#portfolio">PORTFOLIO</a></li>
+     <li><a href="#conctact">CONTACT</a></li>
+     <span class="hidden">X</span>
+    </ul>
+    <span class="hidden">=</span>
+   </nav>
+
+
+   <div class="header_text">
+    <p>Just Me</p>
+    <h1>Sasa 👋, I'm <span>Morris</span> <br>from...</h1>
+   </div>
+  </div>
+ </div>
+
+
+ <br>
+ <br>
+ <br>
+
+
+ <!--  ==================== the about========================  -->
+
+ <div id="about">
+  <div class="container">
+   <div class="row">
+    <div class="about-col-1">
+     <img src="assets/Picture2.jpg" alt="me">
+    </div>
+    <div class="about-col-2">
+     <h1 class="about_me">About me</h1>
+     <p>
+      I'm a first-year IT undergraduate, passionate about technology and an avid reader. I have a self-motivated and
+      can-do attitude, thriving in challenging and dynamic environments. Seeking a competitive position to enhance my
+      skills and contribute to a professional organization. I'm very much passionate to learn new stuff that interests
+      me and can help me to get better.
+     </p>
+
+     <div class="tab_titles">
+      <p class="tab_links active_links" onclick="opentab('skills')">Skills</p>
+      <p class="tab_links" onclick="opentab('experience')">Experience</p>
+      <p class="tab_links" onclick="opentab('education')">Education</p>
+     </div>
+
+     <!-- ==================== the tab content 1 (skills) ============ -->
+     <div class="tab_contents active_tab" id="skills">
+      <ul>
+       <li><span>Web Development</span><br>Web app Development</li>
+       <li><span>Animation</span><br>Passionate in Animation</li>
+       <li><span>App Development</span><br>Building Android/iOS apps</li>
+      </ul>
+     </div>
+
+     <!-- =================== tab content 2 (Experience) ===================== -->
+     <div class="tab_contents" id="experience">
+      <ul>
+       <li><span>Web Development</span><br>passionate in web application</li>
+       <li><span>September 2023 - December 2023</span><br>Training at Dedan Kimanthi University</li>
+       <li><span>2019 - 2022</span><br>Schooling at Ngoto boys High School</li>
+       <li><span>2009 - 2022</span><br>Schooling at D.E.B Kenya Meat Commission Primary school</li>
+      </ul>
+     </div>
+
+     <!-- =================== tab content 3 (Education) ===================== -->
+     <div class="tab_contents" id="education">
+      <ul>
+       <li><span>2023</span><br>Studying at kirinyaga University</li>
+       <li><span>September</span><br>Training at Dedan Kimanthi University</li>
+       <li><span>2019</span><br>Schooling at Ngoto boys High School</li>
+       <li><span>2009</span><br>Schooling at D.E.B Kenya Meat Commission Primary school</li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <!-- ======================== services ===================== -->
+ <div id="services">
+  <div class="container">
+   <h1 class="sub_title">My Services</h1>
+   <div class="services_list">
+
+    <!-- list 1 -->
+    <div>
+     <!-- dont forget to add the script for font awesome -->
+     <!-- <i class="fas fa-code"></i> -->
+     <h2>Web Design</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a quisquam beatae quibusdam magni cum molestias
+      quis? A et alias repellat, minima iusto obcaecati fuga optio tempore at perspiciatis pariatur?</p>
+     <a href="#">Learn more</a>
+    </div>
+
+    <!-- list 2 -->
+    <div>
+     <!-- dont forget to add the script for font awesome -->
+     <!-- <i class="fas fa-crop-alt"></i> -->
+     <h2>OOP</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a quisquam beatae quibusdam magni cum molestias
+      quis? A et alias repellat, minima iusto obcaecati fuga optio tempore at perspiciatis pariatur?</p>
+     <a href="#">Learn more</a>
+    </div>
+
+    <!-- list 3 -->
+
+    <div>
+     <!-- dont forget to add the script for font awesome -->
+     <!-- <i class="fab fa-app-store"></i> -->
+     <h2>App Design</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a quisquam beatae quibusdam magni cum molestias
+      quis? A et alias repellat, minima iusto obcaecati fuga optio tempore at perspiciatis pariatur?</p>
+     <a href="#">Learn more</a>
+    </div>
+
+    <!-- list 4 -->
+
+    <div>
+     <!-- dont forget to add the script for font awesome -->
+     <!-- <i class="fab fa-app-store"></i> -->
+     <h2>App Design</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a quisquam beatae quibusdam magni cum molestias
+      quis? A et alias repellat, minima iusto obcaecati fuga optio tempore at perspiciatis pariatur?</p>
+     <a href="#">Learn more</a>
+    </div>
+    <!-- list 5 -->
+    <div>
+     <!-- dont forget to add the script for font awesome -->
+     <!-- <i class="fab fa-app-store"></i> -->
+     <h2>App Design</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a quisquam beatae quibusdam magni cum molestias
+      quis? A et alias repellat, minima iusto obcaecati fuga optio tempore at perspiciatis pariatur?</p>
+     <a href="#">Learn more</a>
+    </div>
+   </div>
+
+  </div>
+ </div>
+
+ <!-- ============================== portfolio ====================== -->
+ <div id="portfolio">
+  <div class="container">
+   <h1 class="sub_title ">My work</h1>
+   <div class="work_list">
+
+    <!-- work 1 -->
+    <div class="work">
+     <img src="assets/work-2.png" alt="">
+     <div class="layer">
+      <h3>Social Media App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+    <!-- work 2 -->
+    <div class="work">
+     <img src="assets/work-1.png" alt="">
+     <div class="layer">
+      <h3>Music App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+    <!-- work 3 -->
+    <div class="work">
+     <img src="assets/work-3.png" alt="">
+     <div class="layer">
+      <h3>Online shopping App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+    <!-- work 4 -->
+    <div class="work">
+     <img src="assets/work-2.png" alt="">
+     <div class="layer">
+      <h3>Social Media App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+
+    <!-- work 5 -->
+    <div class="work">
+     <img src="assets/work-3.png" alt="">
+     <div class="layer">
+      <h3>Online shopping App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+    <!-- work 6 -->
+    <div class="work">
+     <img src="assets/work-1.png" alt="">
+     <div class="layer">
+      <h3>Music App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+    <!-- work 7 -->
+    <div class="work">
+     <img src="assets/work-3.png" alt="">
+     <div class="layer">
+      <h3>Online shopping App</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae rerum soluta totam! In, repellat quo. Possimus
+       soluta nesciunt dolor, praesentium hic tenetur, provident vero similique numquam, fuga eum maxime excepturi.</p>
+      <a href="#">click me</a>
+     </div>
+    </div>
+
+   </div>
+
+   <a href="../Morris/index.html" class="btn">See more</a>
+  </div>
+ </div>
+
+ <!-- ======================== conctuct ===================== -->
+ <div id="conctact">
+  <div class="container">
+   <div class="row1">
+    <div class="conctact_left">
+     <h1 class="sub_title">Contact me</h1>
+     <p>mulandimorris15@gmail.com</p>
+     <p>+2547 4504 6024</p>
+     <div class="social_icon"><!--dont forget to add the font awesome icons without names and add a
+     hover effect of transform to translatey(-5px) color to be pinkish and original color to be greyish-->
+      <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+      <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+      <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+      <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+     </div>
+     <a download href="#" class="btn btn2">Download CV</a>
+    </div>
+    <div class="conctact_right">
+     <form>
+      <input class="one" type="text" name="name" placeholder="Your name" required>
+      <input class="two" type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+      <button class="btn btn2" type="submit">submit</button>
+     </form>
+    </div>
+
+   </div>
+  </div>
+  <div class="copyright">
+   <p>Copyright @ 2024 morris mulandi </p>
+  </div>
+ </div>
+
+ <script>
+
+  var tablinks = document.getElementsByClassName("tab_links");
+  var tabcontents = document.getElementsByClassName("tab_contents");
+
+  function opentab(tabname) {
+   for (tablink of tablinks) {
+    tablink.classList.remove("active_link");
+   }
+   for (tabcontent of tabcontents) {
+    tabcontent.classList.remove("active_tab");
+   }
+   event.currentTarget.classList.add("active_link");
+   document.getElementById(tabname).classList.add("active_tab")
+  }
+
+ </script>
+</body>
+
+</html>

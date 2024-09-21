@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+ .mulandi {
+  display: none;
+ }
+
+ #header {
+  background: url(assets/me2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ }
+ .about-col-1,
+ .about-col-2 {
+  flex-basis: 100%;
+ }
+}
