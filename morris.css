@@ -11,14 +11,16 @@ body {
  color: #fff;
  width: 100%;
 }
+
 img {
  max-width: 100%;
  height: auto;
 }
+
 #header {
  width: 100%;
  height: 100vh;
- background-image: url(assets/me.png);
+ background: url(assets/me.png);
  background-size: cover;
  background-position: center;
 }
@@ -50,6 +52,7 @@ nav {
 .mulandi2 span {
  color: red;
 }
+
 nav ul {
  display: flex;
 }
@@ -110,7 +113,6 @@ nav .hidden {
 
 .row {
  display: flex;
- background: red;
  justify-content: space-around;
  flex-wrap: wrap;
  width: 100%;
@@ -380,13 +382,13 @@ nav .hidden {
 }
 
 /* =========================== contuct ================= */
-/* .conctact_left{
+.conctact_left{
  flex-basis: 35%;
 }
 .conctact_right{
  flex-direction: 65%;
 } */
-/* 
+
 .row input {
  display: block;
  width: 300px;
@@ -407,7 +409,7 @@ nav .hidden {
 .row su
 .row form{
  margin-right: 800px;
-} */
+} 
 
 .conctact_left {
  flex-basis: 35%;
@@ -421,7 +423,7 @@ nav .hidden {
  display: flex;
  margin-right: 800px;
  width: 100%;
- /* overflow: hidden; */
+ overflow: hidden;
  border-radius: 20px;
 }
 
@@ -508,10 +510,3 @@ form .btn2 {
  padding: 25px 0;
 }
 
-/* ================== css for small screen ================ */
-/* @media only screen and (max-width: 600px) {
- 
- #header {
-  background-image: none;
- }
-} */
