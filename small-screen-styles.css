@@ -73,3 +73,23 @@
   width: 100%;
  }
 }
+
+
+@media (max-width: 768px) {
+
+ .conctact_left,
+ .conctact_right {
+  flex-basis: 100%;
+  padding: 0;
+ }
+}
+
+@media (max-width: 480px) {
+ .row1 {
+  flex-direction: column;
+ }
+
+ .social_icon a {
+  font-size: 20px;
+ }
+}

@@ -382,12 +382,77 @@ nav .hidden {
 }
 
 /* =========================== contuct ================= */
-.conctact_left{
- flex-basis: 35%;
+
+#contact .container {
+ width: 100%;
+ padding: 20px;
 }
-.conctact_right{
- flex-direction: 65%;
-} */
+
+.row1 {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: space-between;
+}
+
+.conctact_left,
+.conctact_right {
+ flex-basis: 45%;
+}
+
+.conctact_left {
+ padding: 20px;
+}
+
+.conctact_right {
+ padding: 20px;
+  flex-direction: 65%;
+}
+
+form input,
+form textarea {
+ width: 100%;
+ padding: 15px;
+ margin-bottom: 15px;
+ border: none;
+ outline: none;
+ background: #262626;
+ color: white;
+ border-radius: 6px;
+}
+
+form .btn2 {
+ padding: 14px 60px;
+ background-color: #ff004f;
+ border: none;
+ color: white;
+ cursor: pointer;
+}
+
+.social_icon {
+ display: flex;
+ gap: 10px;
+ margin-top: 20px;
+}
+
+.social_icon a {
+ color: grey;
+ font-size: 24px;
+ text-decoration: none;
+ transition: transform 0.3s, color 0.3s;
+}
+
+.social_icon a:hover {
+ color: #ff004f;
+ transform: translateY(-5px);
+}
+
+.copyright {
+ text-align: center;
+ padding: 15px;
+ background-color: #262626;
+ color: rgb(145, 145, 182);
+}
 
 .row input {
  display: block;
@@ -409,50 +474,9 @@ nav .hidden {
 .row su
 .row form{
  margin-right: 800px;
-} 
-
-.conctact_left {
- flex-basis: 35%;
 }
-
-.conctact_right {
- flex-basis: 65%;
-}
-
-.row1 {
- display: flex;
- margin-right: 800px;
- width: 100%;
- overflow: hidden;
- border-radius: 20px;
-}
-
-
-
 .conctact_left p {
  font-size: 18px;
-}
-
-.social_icon {
- min-width: 100px;
- max-width: 150px;
- font-size: 17px;
- margin-top: 30px;
-}
-
-.social_icon a {
- display: block;
- margin-top: 7px;
- text-decoration: none;
- color: #ababab;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.social_icon a:hover {
- text-decoration: underline;
- color: blueviolet;
 }
 
 .btn.btn2 {
@@ -480,33 +504,3 @@ textarea {
 .conctact_right form {
  width: 100%;
 }
-
-form input,
-form textarea {
- width: 100%;
- border: 0;
- outline: none;
- padding: 15px;
- color: azure;
- background: #262626;
- margin: 15px 0;
- font-size: 18px;
- border-radius: 6px;
-}
-
-form .btn2 {
- padding: 14px 60px;
- font-size: 18px;
- margin-top: 20px;
- cursor: pointer;
-}
-
-.copyright {
- width: 100%;
- color: rgb(145, 145, 182);
- text-align: center;
- font-weight: 300;
- background: #262626;
- padding: 25px 0;
-}
-
