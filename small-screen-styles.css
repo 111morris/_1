@@ -72,10 +72,6 @@
  .work {
   width: 100%;
  }
-}
-
-
-@media (max-width: 768px) {
 
  .conctact_left,
  .conctact_right {
@@ -83,6 +79,8 @@
   padding: 0;
  }
 }
+
+
 
 @media (max-width: 480px) {
  .row1 {
@@ -92,4 +90,17 @@
  .social_icon a {
   font-size: 20px;
  }
+}
+
+@media (max-width: 844px) {
+#header .container nav {
+ background: red;
+ height: 100dvh;
+ justify-content: left;
+ align-items: flex-start;
+ width: 70%;
+}
+#header .container ul {
+ align-items: flex-start;
+}
 }

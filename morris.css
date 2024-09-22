@@ -42,6 +42,7 @@ nav {
  align-items: center;
  flex-wrap: wrap;
  justify-content: space-around;
+ position: relative;
 }
 
 .mulandi2 {
@@ -88,6 +89,11 @@ nav .hidden {
  display: none;
 }
 
+.phone-more {
+  position: absolute;
+  bottom: 60%;
+  width: 60%;
+}
 /* ============ header_text(just me) ========= */
 .header_text {
  margin-top: 20%;
